@@ -1,0 +1,110 @@
+{"level":"info","message":"Server is running on http://localhost:8080","timestamp":"2024-11-21T05:07:28.563Z"}
+{"level":"info","message":"GET / route accessed","timestamp":"2024-11-21T05:09:52.883Z"}
+{"level":"info","message":"GET / route accessed","timestamp":"2024-11-21T05:10:08.411Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:10:25.915Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:10:32.651Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:10:32.886Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:10:53.748Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:10:55.747Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:11:16.746Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:11:18.748Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:11:38.747Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:11:42.747Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:12:02.746Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:12:07.750Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:12:27.750Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:12:32.754Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:12:52.754Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:12:58.747Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:13:18.746Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:13:23.747Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:13:44.744Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:13:49.744Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:15:05.740Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:15:29.542Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:15:32.694Z"}
+{"level":"info","message":"Data successfully saved to database: %o","timestamp":"2024-11-21T05:15:39.496Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:16:05.743Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:17:05.741Z"}
+{"level":"info","message":"Data successfully saved to database: %o","timestamp":"2024-11-21T05:17:33.982Z"}
+{"level":"info","message":"GET / route accessed","timestamp":"2024-11-21T05:18:05.372Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:18:05.741Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:18:12.314Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:18:12.704Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:18:14.829Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:18:15.190Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:18:17.497Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:18:17.847Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:18:19.732Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:18:20.079Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:18:40.739Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:18:41.736Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:19:02.736Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:19:04.735Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:19:24.735Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:19:27.735Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:20:05.734Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:21:05.736Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:22:05.733Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:23:05.734Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:24:05.731Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:25:05.727Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:26:05.728Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:27:05.727Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:28:05.726Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:29:05.725Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:30:05.718Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:30:46.721Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:31:12.717Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:31:19.797Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:31:40.716Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:31:45.717Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:32:03.281Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:32:03.282Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:32:23.719Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:32:25.719Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:32:44.555Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:32:44.910Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:32:53.783Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:32:54.124Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:32:56.995Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:32:57.345Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:33:17.354Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:33:18.832Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:33:39.650Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:33:42.645Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:33:57.144Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:33:57.507Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2024-11-21T05:34:01.433Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:34:17.650Z"}
+{"level":"info","message":"Shutting down server...","timestamp":"2024-11-21T05:36:22.700Z"}
+{"level":"info","message":"Server is running on http://localhost:8080","timestamp":"2024-11-21T05:37:01.185Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:37:02.656Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:37:23.648Z"}
+{"level":"info","message":"GET / route accessed","timestamp":"2024-11-21T05:37:26.729Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:37:29.640Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:37:36.933Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:37:41.635Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:38:02.636Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:38:03.635Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:38:19.057Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:38:19.437Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:38:24.365Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:38:24.729Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:38:27.016Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:38:27.384Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:38:45.778Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:38:46.132Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:39:06.140Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:39:07.494Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:39:27.496Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:39:29.268Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:39:49.271Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:39:54.271Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:40:14.280Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:40:19.280Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:40:39.633Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:40:45.631Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:41:05.629Z"}
+{"level":"info","message":"New client connected","timestamp":"2024-11-21T05:41:11.630Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2024-11-21T05:41:31.630Z"}

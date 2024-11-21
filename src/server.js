@@ -4,6 +4,20 @@ const http = require("http");
 const cors = require("cors");
 const { saveUserActivity } = require("./db");
 require("dotenv").config();
+const winston = require("winston");
+
+// Set up Winston logger
+const logger = winston.createLogger({
+  level: "info",
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.json()
+  ),
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: "server.log" }),
+  ],
+});
 
 const app = express();
 const server = http.createServer(app);
@@ -19,6 +33,7 @@ app.use(
 
 // Default route to verify server is running
 app.get("/", (req, res) => {
+  logger.info("GET / route accessed");
   res.send("User Activity Tracker is running!");
 });
 
@@ -26,27 +41,26 @@ app.get("/", (req, res) => {
 const wss = new WebSocket.Server({ server });
 
 wss.on("connection", (ws) => {
-  console.log("New client connected");
+  logger.info("New client connected");
 
   // Listen for messages from the client
   ws.on("message", async (message) => {
     try {
-      console.log("Raw message received from client:", message);
+      console.log("Raw message received:", message);
 
-      // Parse the message as JSON
       const data = JSON.parse(message);
-      console.log("Parsed data:", data);
+      console.log("Parsed message:", data);
 
       // Validate required fields
-      if (!data.event || !data.details || !data.timestamp) {
-        throw new Error("Invalid data format. Required: event, details, timestamp.");
+      if (!data.event || !data.details) {
+        throw new Error("Invalid data: 'event' and 'details' are required.");
       }
 
-      // Save the event to the database
-      await saveUserActivity(data);
-      console.log("Data successfully saved to database:", data);
+      // Save data to the database
+      const result = await saveUserActivity(data);
+      console.log("Data saved successfully:", result);
 
-      // Send a success response back to the client
+      // Send success response
       ws.send(
         JSON.stringify({
           status: "success",
@@ -54,9 +68,9 @@ wss.on("connection", (ws) => {
         })
       );
     } catch (error) {
-      console.error("Error processing message:", error.message);
+      console.error("Error processing message:", error.message, error.stack);
 
-      // Send an error response back to the client
+      // Send error response
       ws.send(
         JSON.stringify({
           status: "error",
@@ -68,21 +82,21 @@ wss.on("connection", (ws) => {
 
   // Handle client disconnection
   ws.on("close", () => {
-    console.log("Client disconnected");
+    logger.info("Client disconnected");
   });
 });
 
 // Start the server
 const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  logger.info(`Server is running on http://localhost:${PORT}`);
 });
 
 // Graceful shutdown
 process.on("SIGINT", async () => {
-  console.log("Shutting down server...");
+  logger.info("Shutting down server...");
   server.close(() => {
-    console.log("Server closed");
+    logger.info("Server closed");
     process.exit(0);
   });
 });
